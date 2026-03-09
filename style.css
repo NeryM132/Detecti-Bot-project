@@ -1,134 +1,134 @@
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body general */
-body {
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  background: linear-gradient(135deg, #f5f5f5, #eaeaea);
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  min-height: 100vh;
-  padding: 50px 0;
-  color: #111;
-}
-
-/* Tarjeta principal */
-.container {
-  background: white;
-  padding: 45px;
-  border-radius: 16px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
-  text-align: center;
-  max-width: 900px;
-  width: 92%;
-  animation: fadeIn 0.6s ease;
-}
-
-/* Título principal */
-h1 {
-  font-size: 30px;
-  margin-bottom: 15px;
-  font-weight: 600;
-  letter-spacing: -0.5px;
-}
-
-/* Subtítulos */
-h2 {
-  margin-top: 35px;
-  font-size: 18px;
-  font-weight: 600;
-  text-align: left;
-}
-
-/* Texto */
-p {
-  color: #666;
-  font-size: 15px;
-  line-height: 1.6;
-  margin: 15px 0 25px;
-  text-align: left;
-}
-
-/* Contenedor de imagen SIN bordes */
-.image-box {
-  width: 100%;
-  margin: 25px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Imágenes */
-.image-box img {
-  border-radius: 12px;
-}
-
-/* Contenedor de botones */
-.buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 20px;
-}
-
-/* Botones */
-button {
-  padding: 13px;
-  border: none;
-  border-radius: 10px;
-  background-color: #111;
-  color: white;
-  font-size: 15px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-
-/* Hover */
-button:hover {
-  background-color: #333;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-}
-
-/* Botón volver */
-button:last-child {
-  margin-top: 30px;
-  background-color: #eaeaea;
-  color: #111;
-}
-
-button:last-child:hover {
-  background-color: #dcdcdc;
-}
-
-/* Animación suave */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
+  /* Reset básico */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  
+  /* Body general */
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #f5f5f5, #eaeaea);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 50px 0;
+    color: #111;
   }
-}
-
-/* SOLO para centrar los nombres */
-.names {
-  text-align: center;
-}
-
-/* Botones principales en rojo */
-.buttons button {
-  background-color: #d32f2f;
-}
-
-.buttons button:hover {
-  background-color: #b71c1c;
-}
+  
+  /* Tarjeta principal */
+  .container {
+    background: white;
+    padding: 45px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    max-width: 900px;
+    width: 92%;
+    animation: fadeIn 0.6s ease;
+  }
+  
+  /* Título principal */
+  h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+  }
+  
+  /* Subtítulos */
+  h2 {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  /* Texto */
+  p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 15px 0 25px;
+    text-align: left;
+  }
+  
+  /* Contenedor de imagen SIN bordes */
+  .image-box {
+    width: 100%;
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Imágenes */
+  .image-box img {
+    border-radius: 12px;
+  }
+  
+  /* Contenedor de botones */
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 20px;
+  }
+  
+  /* Botones */
+  button {
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    background-color: #111;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+  
+  /* Hover */
+  button:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Botón volver */
+  button:last-child {
+    margin-top: 30px;
+    background-color: #eaeaea;
+    color: #111;
+  }
+  
+  button:last-child:hover {
+    background-color: #dcdcdc;
+  }
+  
+  /* Animación suave */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* SOLO para centrar los nombres */
+  .names {
+    text-align: center;
+  }
+  
+  /* Botones principales en rojo */
+  .buttons button {
+    background-color: #d32f2f;
+  }
+  
+  .buttons button:hover {
+    background-color: #b71c1c;
+  }
